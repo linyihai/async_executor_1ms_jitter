@@ -1,0 +1,22 @@
+[package]
+name = "playground"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+smol = "2.0"
+async-io = "2.6.0"        
+async-global-executor = {version = "2.4", features = ["async-io"]}
+libc = "0.2"       
+futures-lite = "2.6.1"
+async-timer = { version = "1.0.0-beta.15", features = ["tokio1", "std"] }
+tokio = { version = "1.49.0", features = [
+    "rt-multi-thread",
+    "macros",
+    "sync",
+    "time",
+] }
+futures = { version = "0.3.32", features = ["thread-pool"] }
+async-executor = "1.14.0"
+
+
