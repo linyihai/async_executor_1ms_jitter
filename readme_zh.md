@@ -56,3 +56,13 @@
 
 [global_async_executor] max upper jitter: 0 ticks (≈0μs), max lower jitter: 0 ticks (≈0μs), offset count: 0 in 60000 ticks
 ```
+
+- async_task executor
+
+```shell
+[async_task] max upper jitter: 0 ticks (≈0μs), max lower jitter: 0 ticks (≈0μs), offset count: 0 in 60000 ticks
+
+[async_task] max upper jitter: 1 ticks (≈1000μs), max lower jitter: 1 ticks (≈1000μs), offset count: 2 in 60000 ticks
+
+[async_task] max upper jitter: 1 ticks (≈1000μs), max lower jitter: 1 ticks (≈1000μs), offset count: 6 in 60000 ticks
+```

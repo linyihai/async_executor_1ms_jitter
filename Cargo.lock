@@ -432,6 +432,7 @@ dependencies = [
  "async-executor",
  "async-global-executor",
  "async-io",
+ "async-task",
  "async-timer",
  "futures",
  "futures-lite",
